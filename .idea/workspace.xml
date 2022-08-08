@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1290ce3-6bd8-4865-a73d-cf4ca912d027" name="Changes" comment="primer commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PersonList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PersonListTest.java" afterDir="false" />
+    <list default="true" id="f1290ce3-6bd8-4865-a73d-cf4ca912d027" name="Changes" comment="segundo commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PersonList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PersonList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PersonListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/PersonListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,7 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PersonListTest.testPersonListSearchOk">
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.main" />
       <module name="Lab204" />
@@ -164,7 +162,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659798694786</updated>
-      <workItem from="1659798696254" duration="13012000" />
+      <workItem from="1659798696254" duration="13838000" />
     </task>
     <task id="LOCAL-00001" summary="primer commit">
       <created>1659798841437</created>
@@ -180,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659800381834</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="segundo commit">
+      <created>1659995450434</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659995450434</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,21 +204,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="primer commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/PersonListTest.java</url>
-          <line>24</line>
-          <properties class="org.example.PersonListTest" method="testPersonListSearchOk">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="segundo commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="segundo commit" />
   </component>
 </project>

@@ -23,7 +23,8 @@ public class PersonListTest {
     @DisplayName("Nombre en la lista")
     @Test
     public void testPersonListSearchOk(){
-
+        Person diego = new Person( "Diego Verdoodt", 38, "IT Support");
+        PersonList a = new PersonList(diego);
         assertEquals("Diego Verdoodt", a.findByName("Diego Verdoodt"));
     }
 

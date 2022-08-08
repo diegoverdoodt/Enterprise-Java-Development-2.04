@@ -53,4 +53,11 @@ public class Person {
     public void setOccupation(String occupation) {
         this.occupation = occupation;
     }
+
+    public Person clone (Person person){
+
+        person.
+
+        return result;
+    }
 }

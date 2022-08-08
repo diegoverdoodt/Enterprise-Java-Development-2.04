@@ -8,7 +8,10 @@ public class main {
         Person aleix = new Person( "Aleix sdf", 32, "Product Manager");
         Person nadine = new Person( "Nadine Ayman", 29, "Sales Support");
 
+        PersonList a = new PersonList(diego);
 
+
+        a.findByName("Diego Verdoodt");
 
 
 
