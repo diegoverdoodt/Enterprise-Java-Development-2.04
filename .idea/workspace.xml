@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1290ce3-6bd8-4865-a73d-cf4ca912d027" name="Changes" comment="primer commit">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PersonList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PersonListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/PersonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +50,31 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PersonTest.testsetAgeSinNumero">
-    <configuration name="PersonTest.testsetAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PersonListTest.testPersonListSearchOk">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.main" />
+      <module name="Lab204" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonListTest.testPersonListSearchOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab204" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PersonListTest" />
+      <option name="METHOD_NAME" value="testPersonListSearchOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.testSetNadName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab204" />
       <extension name="coverage">
         <pattern>
@@ -62,7 +84,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.PersonTest" />
-      <option name="METHOD_NAME" value="testsetAge" />
+      <option name="METHOD_NAME" value="testSetNadName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,12 +138,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="JUnit.PersonListTest.testPersonListSearchOk" />
+      <item itemvalue="JUnit.PersonTest.testSetNadName" />
+      <item itemvalue="JUnit.PersonTest.testsetAgeNegativo" />
+      <item itemvalue="JUnit.PersonTest.testsetAgeOk" />
+      <item itemvalue="JUnit.PersonTest.testsetAgeSinNumero" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonListTest.testPersonListSearchOk" />
+        <item itemvalue="JUnit.PersonTest.testSetNadName" />
         <item itemvalue="JUnit.PersonTest.testsetAgeSinNumero" />
         <item itemvalue="JUnit.PersonTest.testsetAgeNegativo" />
         <item itemvalue="JUnit.PersonTest.testsetAgeOk" />
-        <item itemvalue="JUnit.PersonTest.testsetAge" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659798694786</updated>
-      <workItem from="1659798696254" duration="1380000" />
+      <workItem from="1659798696254" duration="13012000" />
     </task>
     <task id="LOCAL-00001" summary="primer commit">
       <created>1659798841437</created>
@@ -142,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659798841437</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="primer commit">
+      <created>1659800381834</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659800381834</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,5 +200,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer commit" />
     <option name="LAST_COMMIT_MESSAGE" value="primer commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/PersonListTest.java</url>
+          <line>24</line>
+          <properties class="org.example.PersonListTest" method="testPersonListSearchOk">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -12,7 +12,7 @@ public class PersonTest {
     private Person instance;
 
     @BeforeEach
-    public void setup () { instance =  new Person("100", "Diego", 38, "IT Support");}
+    public void setup () { instance =  new Person("Diego Verdoodt", 38, "IT Support");}
 
     @DisplayName("Entrada de años OK")
     @Test
@@ -33,6 +33,11 @@ public class PersonTest {
         Assertions.assertThrows(NumberFormatException.class, ()-> instance.setAge(Integer.parseInt("")));
     }
 
+    @DisplayName("Solo un nombre")
+    @Test
+    public void testSetNadName(){
+        Assertions.assertThrows(IllegalArgumentException.class, ()-> instance.setName("diego"));
+    }
 
 
 

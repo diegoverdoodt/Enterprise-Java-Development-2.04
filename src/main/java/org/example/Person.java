@@ -2,24 +2,25 @@ package org.example;
 
 public class Person {
 
-    private String id;
+    private int id = 0;
     private String name;
     private int age;
     private String occupation;
 
-    public Person(String id, String name, int age, String occupation) {
+    public Person(String name, int age, String occupation) {
         setId(id);
         setName(name);
         setAge(age);
         setOccupation(occupation);
     }
 
-    public String getId() {
+
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setId(int id) {
+        id = id +1;
     }
 
     public String getName() {
@@ -27,6 +28,9 @@ public class Person {
     }
 
     public void setName(String name) {
+       if (name.split(" ").length < 2){
+            throw new IllegalArgumentException("El nombre debe estar formado por el nombre y el apellido");
+        }
         this.name = name;
     }
 
@@ -37,8 +41,6 @@ public class Person {
     public void setAge(int age) {
         if( age < 0){
             throw new IllegalArgumentException("La edad no puede ser menor de 0");
-        } else if (age == Integer.parseInt("")){
-            throw new NumberFormatException("La edad debe de ser un número");
         }else {
             this.age = age;
         }
