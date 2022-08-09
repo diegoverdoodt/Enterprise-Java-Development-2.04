@@ -7,7 +7,9 @@
     <list default="true" id="f1290ce3-6bd8-4865-a73d-cf4ca912d027" name="Changes" comment="segundo commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PersonList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PersonList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PersonListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/PersonListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/PersonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +58,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonListTest.testPersonListFailSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab204" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PersonListTest" />
+      <option name="METHOD_NAME" value="testPersonListFailSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersonListTest.testPersonListSearchOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab204" />
       <extension name="coverage">
@@ -67,6 +85,38 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.PersonListTest" />
       <option name="METHOD_NAME" value="testPersonListSearchOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.testCloneMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab204" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PersonTest" />
+      <option name="METHOD_NAME" value="testCloneMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.testCloneMethodBad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab204" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PersonTest" />
+      <option name="METHOD_NAME" value="testCloneMethodBad" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,69 +138,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.testSetNadName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab204" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PersonTest" />
-      <option name="METHOD_NAME" value="testSetNadName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonTest.testsetAgeNegativo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab204" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PersonTest" />
-      <option name="METHOD_NAME" value="testsetAgeNegativo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonTest.testsetAgeSinNumero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab204" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PersonTest" />
-      <option name="METHOD_NAME" value="testsetAgeSinNumero" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
+      <item itemvalue="JUnit.PersonListTest.testPersonListFailSearch" />
       <item itemvalue="JUnit.PersonListTest.testPersonListSearchOk" />
+      <item itemvalue="JUnit.PersonTest.testCloneMethod" />
+      <item itemvalue="JUnit.PersonTest.testCloneMethodBad" />
       <item itemvalue="JUnit.PersonTest.testSetBadName" />
-      <item itemvalue="JUnit.PersonTest.testSetNadName" />
-      <item itemvalue="JUnit.PersonTest.testsetAgeNegativo" />
-      <item itemvalue="JUnit.PersonTest.testsetAgeSinNumero" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PersonTest.testSetBadName" />
+        <item itemvalue="JUnit.PersonTest.testCloneMethodBad" />
+        <item itemvalue="JUnit.PersonTest.testCloneMethod" />
+        <item itemvalue="JUnit.PersonListTest.testPersonListFailSearch" />
         <item itemvalue="JUnit.PersonListTest.testPersonListSearchOk" />
-        <item itemvalue="JUnit.PersonTest.testSetNadName" />
-        <item itemvalue="JUnit.PersonTest.testsetAgeSinNumero" />
-        <item itemvalue="JUnit.PersonTest.testsetAgeNegativo" />
+        <item itemvalue="JUnit.PersonTest.testSetBadName" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659798694786</updated>
-      <workItem from="1659798696254" duration="18773000" />
+      <workItem from="1659798696254" duration="22546000" />
     </task>
     <task id="LOCAL-00001" summary="primer commit">
       <created>1659798841437</created>
@@ -192,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659996505885</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="segundo commit">
+      <created>1660031178995</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660031178995</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,16 +222,5 @@
     <MESSAGE value="primer commit" />
     <MESSAGE value="segundo commit" />
     <option name="LAST_COMMIT_MESSAGE" value="segundo commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/main.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

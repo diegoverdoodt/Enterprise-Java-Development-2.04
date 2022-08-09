@@ -11,7 +11,8 @@ import java.util.HashMap;
 import static org.junit.Assert.*;
 
 public class PersonListTest {
-    private PersonList a;
+    Person diego = new Person( "Diego Verdoodt", 38, "IT Support");
+    PersonList a = new PersonList(diego);
 
     @BeforeEach
     public void setup() {
@@ -23,10 +24,17 @@ public class PersonListTest {
     @DisplayName("Nombre en la lista")
     @Test
     public void testPersonListSearchOk(){
-        Person diego = new Person( "Diego Verdoodt", 38, "IT Support");
         PersonList a = new PersonList(diego);
-        assertEquals("Diego Verdoodt", a.findByName("Diego Verdoodt"));
+        assertEquals(diego, a.findByName("Diego Verdoodt"));
     }
+
+    @DisplayName("Nombre no coincide")
+    @Test
+    public void testPersonListFailSearch(){
+        PersonList a = new PersonList(diego);
+        Assertions.assertThrows(IllegalArgumentException.class, ()-> a.findByName("Diego ve"));
+    }
+
 
 
 

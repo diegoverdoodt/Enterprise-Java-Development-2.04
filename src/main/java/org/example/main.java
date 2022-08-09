@@ -1,7 +1,9 @@
 package org.example;
 
+import java.io.IOException;
+
 public class main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
 
         Person diego = new Person("Diego Verdoodt", 38, "IT Support");
@@ -11,12 +13,14 @@ public class main {
         PersonList a = new PersonList(diego);
 
 
-        a.findByName("Diego Verdoodt");
+        //a.findByName("Diego Verdot");
 
 
         Person aleix2 = aleix.clone();
 
         aleix.equals(aleix, aleix2);
+
+        aleix2.toFile(aleix);
 
     }
 }

@@ -39,6 +39,23 @@ public class PersonTest {
         Assertions.assertThrows(IllegalArgumentException.class, ()-> instance.setName("diego"));
     }
 
+    @DisplayName("Prueba metodo clone")
+    @Test
+    public void testCloneMethod(){
+        instance =  new Person("Diego Verdoodt", 38, "IT Support");
+        Person instance2 = instance.clone();
+        Assertions.assertTrue(instance2.equals(instance2, instance));
+    }
+
+    @DisplayName("Prueba metodo clone resultado negativo")
+    @Test
+    public void testCloneMethodBad(){
+        instance =  new Person("Diego Verdoodt", 38, "IT Support");
+        Person instance2 = instance.clone();
+        instance2.setName("Antonio David");
+        Assertions.assertFalse(instance2.equals(instance2, instance));
+    }
+
 
 
 }

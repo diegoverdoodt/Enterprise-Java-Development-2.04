@@ -1,5 +1,8 @@
 package org.example;
 
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class Person {
 
     private int id;
@@ -67,9 +70,21 @@ public class Person {
     }
 
     //@Override
-    public void equals (Person person1, Person person2){
+    public boolean equals (Person person1, Person person2){
         if (person1.getName() == (person2.getName()) && person1.getAge() == (person2.getAge()) && person1.getOccupation() == person2.getOccupation()){
             System.out.println("Los usuarios son iguales.");
+            return true;
         }
+        return false;
     }
+
+    public void toFile (Person person) throws IOException {
+        FileWriter writer = new FileWriter("test.txt");
+        writer.write(person.id + ". Nombre: " + person.name.toString() + ". Edad: " + person.age + ". Ocupación: " + person.occupation.toString() +".\n");
+        writer.close();
+
+
+    }
+
+
 }

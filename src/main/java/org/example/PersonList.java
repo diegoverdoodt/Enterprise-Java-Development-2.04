@@ -17,7 +17,7 @@ public class PersonList {
                 System.out.println("El nombre buscado esta en la lista");
                return p;
             } else {
-                return null;
+                throw new IllegalArgumentException("El nombre no esta dentro de la lista");
             }
         }
     return null;
