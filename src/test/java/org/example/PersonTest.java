@@ -35,7 +35,7 @@ public class PersonTest {
 
     @DisplayName("Solo un nombre")
     @Test
-    public void testSetNadName(){
+    public void testSetBadName(){
         Assertions.assertThrows(IllegalArgumentException.class, ()-> instance.setName("diego"));
     }
 

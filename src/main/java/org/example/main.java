@@ -14,6 +14,9 @@ public class main {
         a.findByName("Diego Verdoodt");
 
 
+        Person aleix2 = aleix.clone();
+
+        aleix.equals(aleix, aleix2);
 
     }
 }
